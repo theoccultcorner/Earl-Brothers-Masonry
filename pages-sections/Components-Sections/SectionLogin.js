@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Card, CardContent, Grid, TextField, Button, List, ListItem, Fab } from '@material-ui/core';
 import { Phone } from '@material-ui/icons';
  
-export default function SectionLogin() {
+export default function Home() {
   const [inputName, setInputName] = useState("");
   const [inputPhone, setInputPhone] = useState("");
   const [inputEmail, setInputEmail] = useState("");
@@ -52,10 +52,9 @@ export default function SectionLogin() {
         <title>AI</title>
         <link rel="icon" href=" " />
       </Head>
-     
+ 
       <main>
-    
-    
+     
         <Grid container justifyContent="center">
           <Card id="contactus">
             <CardContent>
@@ -107,8 +106,8 @@ export default function SectionLogin() {
         <Fab color="primary" aria-label="call" style={{ backgroundColor: 'black', position: 'fixed', bottom: 20, right: 20 }} onClick={() => window.open('tel:8055541361')}>
           <Phone />
         </Fab>
-     
-        
+   
+       
       </main>
     </div>
   );
