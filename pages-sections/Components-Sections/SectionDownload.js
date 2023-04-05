@@ -21,15 +21,13 @@ export default function SectionDownload() {
         <br />
         <GridContainer className={classes.textCenter} justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2>Want more?</h2>
+            <h2>Want to know more?</h2>
             <h4>
-              We've just launched{" "}
-              <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                NextJS Material Kit PRO{" "}
+              Just reach out and {" "}
+              <a href="#Contact" onClick={(e) => e.preventDefault()}>
+                Contact Us{" "}
               </a>
-              .It has a huge number of components, sections and example pages.
-              Start Your Development With A Badass Material-UI and NexJS Kit
-              inspired by Material Design.
+            We are looking forward to hearing from you!
             </h4>
           </GridItem>
           <GridItem xs={12} sm={8} md={10}>
