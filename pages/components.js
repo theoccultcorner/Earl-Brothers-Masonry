@@ -14,7 +14,7 @@ import GridItem from "/components/Grid/GridItem.js";
 import Parallax from "/components/Parallax/Parallax.js";
 // sections for this page
  
-import SectionTabs from "/pages-sections/Components-Sections/SectionTabs.js";
+ 
  
  
  
@@ -61,8 +61,7 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
       <SectionCompletedExamples />
-         
-        <SectionTabs />
+ 
        
      
         <SectionCarousel />
