@@ -35,16 +35,16 @@ export default function SectionDownload() {
             <Button
               color="rose"
               size="lg"
-              href="https://www.creative-tim.com/product/material-kit-pro-react?ref=njsmk-download-section"
+              href="#Contact"
               target="_blank"
             >
-              Material Kit PRO React
+              Contact Us
             </Button>
           </GridItem>
         </GridContainer>
         <div className={classes.textCenter + " " + classes.sharingArea}>
           <GridContainer justify="center">
-            <h3>Thank you for supporting us!</h3>
+            <h3>Thank you and have a nice day!</h3>
           </GridContainer>
           
           <Button color="facebook">
