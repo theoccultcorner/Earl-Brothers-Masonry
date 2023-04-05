@@ -60,16 +60,16 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-    
+      <SectionCompletedExamples />
          
         <SectionTabs />
        
      
         <SectionCarousel />
-        <SectionCompletedExamples />
+        
 
 
-        <SectionLogin style={{ textAlign: "center" }} />
+        <SectionLogin   />
        
        
         <SectionDownload />
