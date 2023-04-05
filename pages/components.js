@@ -15,7 +15,7 @@ import Parallax from "/components/Parallax/Parallax.js";
 // sections for this page
  
 import SectionTabs from "/pages-sections/Components-Sections/SectionTabs.js";
-import SectionPills from "/pages-sections/Components-Sections/SectionPills.js";
+ 
  
  
 import SectionCarousel from "/pages-sections/Components-Sections/SectionCarousel.js";
