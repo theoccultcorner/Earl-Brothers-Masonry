@@ -49,7 +49,7 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Earl Brothers Masonry</h1>
+                <h1 className={classes.title}></h1>
                 <h3 className={classes.subtitle}>
                 "From design to completion, our skilled masons are dedicated to creating beautiful, enduring structures that reflect your unique vision. With meticulous attention to detail and a commitment to using only the highest-quality materials, we are proud to offer our clients a superior masonry experience that stands the test of time."
                 </h3>
