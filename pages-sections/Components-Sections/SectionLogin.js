@@ -55,8 +55,8 @@ export default function Home() {
  
       <main>
      
-        <Grid container justifyContent="center">
-          <Card id="contactus">
+        <Grid container justifyContent="center" textAlign="center">
+          <Card id="Contact">
             <CardContent>
               <form onSubmit={onSubmit}>
                 <List>
