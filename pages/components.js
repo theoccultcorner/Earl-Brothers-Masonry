@@ -61,14 +61,16 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
     
-      <div className={classNames(classes.main, classes.mainRaised)} style={{ textAlign: "center" }}>
+         
         <SectionTabs />
-        <SectionPills />
+       
      
         <SectionCarousel />
         <SectionCompletedExamples />
-        <SectionLogin />
-       <div/>
+
+
+        <SectionLogin style={{ textAlign: "center" }} />
+       
        
         <SectionDownload />
       </div>
