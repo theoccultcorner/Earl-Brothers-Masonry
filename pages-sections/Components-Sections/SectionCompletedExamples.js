@@ -18,12 +18,11 @@ export default function SectionCompletedExamples() {
       <div className={classes.container}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2>Completed with examples</h2>
+            <h2>   We have experience in all phases of masonry that include brick, block, and stone...
+</h2>
             <h4>
-              The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you{"'"}re good to
-              go. More importantly, looking at them will give you a picture of
-              what you can build with this powerful kit.
+          
+Earl Brothers Masonry was brought to you with 20 years of experience by three men born and built in Santa Maria, California. We may not be the largest company at the moment but our eyes are open to the bigger and greater futures of our customers and our company. Do you need retaining walls or perhaps a block wall? Maybe a stone fire pit or a stone barbecue to make your friends jealous? We'll throw in a free estimate for brick to show you we mean business! We guarantee the quality and integrity of our jobs well done. We'll have local competitors shaking in their boots work boots. We believe that our quality of work will lead to a successful masonry company honored to service the central coast for years to come!
             </h4>
           </GridItem>
         </GridContainer>
