@@ -52,11 +52,11 @@ export default function Home() {
         <title>AI</title>
         <link rel="icon" href=" " />
       </Head>
- 
+  
       <main>
-     
-        <Grid >
-          <Card id="Contact">
+ 
+        <Grid container justifyContent="center">
+          <Card id="contactus">
             <CardContent>
               <form onSubmit={onSubmit}>
                 <List>
@@ -106,8 +106,8 @@ export default function Home() {
         <Fab color="primary" aria-label="call" style={{ backgroundColor: 'black', position: 'fixed', bottom: 20, right: 20 }} onClick={() => window.open('tel:8055541361')}>
           <Phone />
         </Fab>
-   
-       
+     
+          
       </main>
     </div>
   );
