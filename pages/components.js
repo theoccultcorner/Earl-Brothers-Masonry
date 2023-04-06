@@ -61,16 +61,14 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
       <SectionCompletedExamples />
- 
-       
-     
         <SectionCarousel />
-        
-
-
-        <SectionLogin   />
-       
-       
+        <div className={classes.container}>
+        <GridContainer >
+        <GridItem>
+         <SectionLogin   /> 
+         </GridItem>
+        </GridContainer>
+        </div>
         <SectionDownload />
       </div>
       <Footer />
