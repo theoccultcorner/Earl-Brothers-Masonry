@@ -10,7 +10,7 @@ import Tooltip from "@material-ui/core/Tooltip";
  
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
+import { Apps, } from "@material-ui/icons";
  
 
 // core components

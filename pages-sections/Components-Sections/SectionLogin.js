@@ -107,9 +107,20 @@ export default function Home() {
             </CardContent>
           </Card>
         </Grid>
-        <Fab color="primary" aria-label="call" style={{ backgroundColor: 'black', position: 'fixed', bottom: 20, right: 20 }} onClick={() => window.open('tel:8055541361')}>
-          <Phone />
-        </Fab>
+        <Fab 
+  color="primary" 
+  aria-label="call" 
+  style={{ 
+    backgroundColor: 'black', 
+    position: 'fixed', 
+    bottom: 20, 
+    right: 20,
+    zIndex: 9999 // Set a high value for z-index
+  }} 
+  onClick={() => window.open('tel:8058637747')}
+>
+  <Phone />
+</Fab>
       </main>
     </div>
   );
