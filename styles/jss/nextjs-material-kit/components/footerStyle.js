@@ -34,6 +34,10 @@ const footerStyle = {
     backgroundColor: "transparent",
     "&:visited": {
       color: "black"
+    },
+    "&:hover": {
+      color: "blue",
+      textDecoration: "underline"
     }
   },
   footerWhiteFont: {
