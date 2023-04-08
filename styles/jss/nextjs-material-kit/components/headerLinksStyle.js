@@ -82,7 +82,7 @@ const headerLinksStyle = (theme) => ({
    
   navLinkActive: {
     color: "inherit",
-    backgroundColor: "rgba(200.00, 200.00, 200.00, 0.20)"
+    backgroundColor: "rgba(0, 0, 0, 0.2)"
   },
   icons: {
     width: "20px",
