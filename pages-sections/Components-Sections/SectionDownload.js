@@ -51,10 +51,7 @@ export default function SectionDownload() {
             <h2>Want to see more?</h2>
             <h4>
               Check out our {" "}
-              <a  style={{ 
-         Color: 'black', 
- 
-  }} href="https://www.instagram.com/earlbrothersmasonry" onClick={(e) => e.preventDefault()}>
+              <a    href="https://www.instagram.com/earlbrothersmasonry" onClick={(e) => e.preventDefault()}>
                 Instagram{" "}
               </a>
             Thank you!
@@ -63,12 +60,11 @@ export default function SectionDownload() {
           </GridContainer>
           
          
-          <Button  style={{ 
-    backgroundColor: 'black', 
-    
-  }} >
-            <i className={classes.socials + "fa fa-instagram"} />Instagram
-          </Button>
+          <a href="https://www.instagram.com/earlbrothersmasonry">
+  <Button style={{ backgroundColor: 'black' }}>
+    <i className={classes.socials + "fa fa-instagram"} />Instagram
+  </Button>
+</a>
        
         </div>
       </div>
