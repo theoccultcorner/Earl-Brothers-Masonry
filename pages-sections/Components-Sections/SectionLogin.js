@@ -59,9 +59,9 @@ export default function Home() {
           <Card id="Contact">
             <CardContent>
               <form onSubmit={onSubmit}>
-                <List>
-                  <ListItem>
-                    <TextField xs={12} sm={12} md={8}
+                <List xs={12} sm={12} md={8}>
+                  <ListItem >
+                    <TextField  
                       required
                       label="Name"
                       value={inputName}
@@ -69,7 +69,7 @@ export default function Home() {
                     />
                   </ListItem>
                   <ListItem>
-                    <TextField xs={12} sm={12} md={8}
+                    <TextField  
                       required
                       label="Phone"
                       value={inputPhone}
@@ -77,7 +77,7 @@ export default function Home() {
                     />
                   </ListItem>
                   <ListItem>
-                    <TextField xs={12} sm={12} md={8}
+                    <TextField  
                       required
                       label="Email"
                       value={inputEmail}
@@ -85,7 +85,7 @@ export default function Home() {
                     />
                   </ListItem>
                   <ListItem>
-                    <TextField xs={12} sm={12} md={8}
+                    <TextField  
                       required
                       label="Text"
                       multiline
