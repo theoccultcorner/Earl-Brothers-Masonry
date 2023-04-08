@@ -40,7 +40,7 @@ export default function HeaderLinks(props) {
               <a className={classes.dropdownLink}>Photo Gallery</a>
             </Link>,
             <a
-              href="https://creativetimofficial.github.io/nextjs-material-kit/#/documentation?ref=njsmk-navbar"
+              href="#Contact"
               target="_blank"
               className={classes.dropdownLink}
             >
@@ -50,25 +50,6 @@ export default function HeaderLinks(props) {
         />
       </ListItem>
      
-   
-  
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
-          placement={"top"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
@@ -78,7 +59,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+            href="https://www.instagram.com/earlbrothersmasonry"
             target="_blank"
             className={classes.navLink}
           >

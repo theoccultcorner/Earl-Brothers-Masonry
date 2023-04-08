@@ -276,16 +276,7 @@ export default function SectionNavbars() {
                     Discover
                   </Button>
                 </ListItem>
-                <ListItem className={classes.listItem}>
-                  <Button
-                    href="#pablo"
-                    className={classes.navLink}
-                    onClick={(e) => e.preventDefault()}
-                    color="transparent"
-                  >
-                    Wishlist
-                  </Button>
-                </ListItem>
+       
                 <ListItem className={classes.listItem}>
                   <Button
                     justIcon
@@ -350,17 +341,7 @@ export default function SectionNavbars() {
                     Wishlist
                   </Button>
                 </ListItem>
-                <ListItem className={classes.listItem}>
-                  <Button
-                    href="#pablo"
-                    className={classes.registerNavLink}
-                    onClick={(e) => e.preventDefault()}
-                    color="rose"
-                    round
-                  >
-                    Register
-                  </Button>
-                </ListItem>
+        
               </List>
             }
           />
@@ -369,43 +350,7 @@ export default function SectionNavbars() {
             color="transparent"
             rightLinks={
               <List className={classes.list}>
-                <ListItem className={classes.listItem}>
-                  <Button
-                    color="transparent"
-                    className={
-                      classes.navLink + " " + classes.socialIconsButton
-                    }
-                  >
-                    <i
-                      className={
-                        classes.socialIcons +
-                        " " +
-                        classes.marginRight5 +
-                        " fab fa-twitter"
-                      }
-                    />{" "}
-                    Twitter
-                  </Button>
-                </ListItem>
-                <ListItem className={classes.listItem}>
-                  <Button
-                    color="transparent"
-                    className={
-                      classes.navLink + " " + classes.socialIconsButton
-                    }
-                  >
-                    <i
-                      className={
-                        classes.socialIcons +
-                        " " +
-                        classes.marginRight5 +
-                        " fab fa-facebook"
-                      }
-                    />{" "}
-                    Facebook
-                  </Button>
-                </ListItem>
-                <ListItem className={classes.listItem}>
+               <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
                     className={

@@ -55,8 +55,8 @@ export default function Home() {
   
       <main>
  
-        <Grid container justifyContent="center">
-          <Card id="contactus">
+      <Grid container justifyContent="center" alignItems="center" style={{ minHeight: '100vh' }}>
+          <Card id="Contact">
             <CardContent>
               <form onSubmit={onSubmit}>
                 <List>
@@ -94,7 +94,7 @@ export default function Home() {
                       onChange={(e) => setInputText(e.target.value)}
                     />
                   </ListItem>
-                  <ListItem>
+                   <ListItem>
                     <Button type="submit" variant="contained">Submit</Button>
                   </ListItem>
                 </List>
@@ -106,8 +106,6 @@ export default function Home() {
         <Fab color="primary" aria-label="call" style={{ backgroundColor: 'black', position: 'fixed', bottom: 20, right: 20 }} onClick={() => window.open('tel:8055541361')}>
           <Phone />
         </Fab>
-     
-          
       </main>
     </div>
   );
