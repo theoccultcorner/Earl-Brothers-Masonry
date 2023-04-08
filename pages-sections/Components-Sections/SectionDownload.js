@@ -44,14 +44,12 @@ export default function SectionDownload() {
         </GridContainer>
         <div className={classes.textCenter + " " + classes.sharingArea}>
           <GridContainer justify="center">
-            <h3>Thank you and have a nice day!</h3>
+            <h3>Check out our Instagram!</h3>
           </GridContainer>
           
+         
           <Button color="facebook">
-            <i className={classes.socials + " fab fa-facebook-square"} /> Facebook
-          </Button>
-          <Button color="facebook">
-            <i className={classes.socials + " fab fa-Instagram"} /> Instagram
+            <i className={classes.socials + " fab fa-Instagram"} />Instagram
           </Button>
        
         </div>
