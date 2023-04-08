@@ -31,7 +31,10 @@ const footerStyle = {
   a: {
     color: "black",
     textDecoration: "none",
-    backgroundColor: "transparent"
+    backgroundColor: "transparent",
+    "&:visited": {
+      color: "black"
+    }
   },
   footerWhiteFont: {
     "&,&:hover,&:focus": {
@@ -56,4 +59,5 @@ const footerStyle = {
     top: "3px"
   }
 };
+
 export default footerStyle;
