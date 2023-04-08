@@ -51,7 +51,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="Contact"
+                href="#Contact"
                 className={classes.block}
                 target="_blank"
               >
@@ -60,11 +60,11 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="#About"
+                href="https://www.instagram.com/earlbrothersmasonry"
                 className={classes.block}
                 target="_blank"
               >
-                Licenses
+                More
               </a>
             </ListItem>
           </List>
