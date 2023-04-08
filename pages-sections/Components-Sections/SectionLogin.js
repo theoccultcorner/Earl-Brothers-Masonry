@@ -66,6 +66,7 @@ export default function Home() {
                       label="Name"
                       value={inputName}
                       onChange={(e) => setInputName(e.target.value)}
+                      fullWidth
                     />
                   </ListItem>
                   <ListItem>
@@ -74,6 +75,7 @@ export default function Home() {
                       label="Phone"
                       value={inputPhone}
                       onChange={(e) => setInputPhone(e.target.value)}
+                      fullWidth
                     />
                   </ListItem>
                   <ListItem>
@@ -82,6 +84,7 @@ export default function Home() {
                       label="Email"
                       value={inputEmail}
                       onChange={(e) => setInputEmail(e.target.value)}
+                      fullWidth
                     />
                   </ListItem>
                   <ListItem>
@@ -92,6 +95,7 @@ export default function Home() {
                       rows={4}
                       value={inputText}
                       onChange={(e) => setInputText(e.target.value)}
+                      fullWidth
                     />
                   </ListItem>
                    <ListItem>
@@ -110,5 +114,3 @@ export default function Home() {
     </div>
   );
 }
-
- 
