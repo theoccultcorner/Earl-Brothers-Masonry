@@ -31,7 +31,7 @@ export default function SectionCarousel() {
           <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
             <Card carousel>
               <Carousel {...settings}>
-              <div>
+              <div id="Photo">
                   <img
                     src="/img/bg2.jpg"
                     alt="Second slide"
