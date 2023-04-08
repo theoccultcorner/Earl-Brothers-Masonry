@@ -50,7 +50,7 @@ const headerLinksStyle = (theme) => ({
     display: "inline-flex",
     "&:hover,&:focus": {
       color: "inherit",
-      background: "rgba(200.00, 200.00, 200.00, 0.20)"
+      background: "rgba(0, 0, 0, 0.2)"
     },
     [theme.breakpoints.down("sm")]: {
       width: "calc(100% - 30px)",
@@ -79,21 +79,7 @@ const headerLinksStyle = (theme) => ({
     display: "inline-flex",
     top: "4px"
   },
-  registerNavLink: {
-    [theme.breakpoints.down("md")]: {
-      top: "0",
-      margin: "5px 15px"
-    },
-    top: "3px",
-    position: "relative",
-    fontWeight: "400",
-    fontSize: "12px",
-    textTransform: "uppercase",
-    lineHeight: "20px",
-    textDecoration: "none",
-    margin: "0px",
-    display: "inline-flex"
-  },
+   
   navLinkActive: {
     color: "inherit",
     backgroundColor: "rgba(200.00, 200.00, 200.00, 0.20)"
