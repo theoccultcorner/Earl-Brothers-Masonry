@@ -31,20 +31,7 @@ export default function SectionCarousel() {
           <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
             <Card carousel>
               <Carousel {...settings}>
-                <div>
-                  <img
-                    src="/img/bg.jpg"
-                    alt="First slide"
-                    className="slick-image"
-                  />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                       
-                    </h4>
-                  </div>
-                </div>
-                <div>
+              <div>
                   <img
                     src="/img/bg2.jpg"
                     alt="Second slide"
@@ -60,6 +47,111 @@ export default function SectionCarousel() {
                 <div>
                   <img
                     src="/img/bg3.jpg"
+                    alt="Second slide"
+                    className="slick-image"
+                  />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                    
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img
+                    src="/img/bg4.jpg"
+                    alt="Second slide"
+                    className="slick-image"
+                  />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                    
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img
+                    src="/img/bg5.jpg"
+                    alt="Second slide"
+                    className="slick-image"
+                  />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                    
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img
+                    src="/img/bg6.jpg"
+                    alt="Second slide"
+                    className="slick-image"
+                  />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                    
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img
+                    src="/img/bg7.jpg"
+                    alt="Second slide"
+                    className="slick-image"
+                  />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                    
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img
+                    src="/img/bg8.jpg"
+                    alt="Second slide"
+                    className="slick-image"
+                  />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                    
+                    </h4>
+                  </div>
+                </div>
+
+                <div>
+                  <img
+                    src="/img/bg9.jpg"
+                    alt="First slide"
+                    className="slick-image"
+                  />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                       
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img
+                    src="/img/bg10.jpg"
+                    alt="Second slide"
+                    className="slick-image"
+                  />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                    
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img
+                    src="/img/bg11.jpg"
                     alt="Third slide"
                     className="slick-image"
                   />
