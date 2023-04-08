@@ -53,13 +53,14 @@ export default function Home() {
         <link rel="icon" href=" " />
       </Head>
   
-      <main>
+      <main style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+  <Grid xs={12} sm={12} md={8}>
  
-      <Grid xs={12} sm={12} md={8}>
-          <Card id="Contact">
-            <CardContent>
+    
+          <Card id="Contact" >
+            <CardContent >
               <form onSubmit={onSubmit}>
-                <List xs={12} sm={12} md={8}>
+                <List  >
                   <ListItem >
                     <TextField  
                       required
