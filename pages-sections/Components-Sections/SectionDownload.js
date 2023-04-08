@@ -47,8 +47,19 @@ export default function SectionDownload() {
         </GridContainer>
         <div className={classes.textCenter + " " + classes.sharingArea}>
           <GridContainer justify="center">
-          <h2>Want to see more?</h2>
-            <h3>Check out our Instagram!</h3>
+          <GridItem     xs={12} sm={12} md={8}>
+            <h2>Want to see more?</h2>
+            <h4>
+              Check out our {" "}
+              <a  style={{ 
+         Color: 'black', 
+ 
+  }} href="https://www.instagram.com/earlbrothersmasonry" onClick={(e) => e.preventDefault()}>
+                Instagram{" "}
+              </a>
+            Thank you!
+            </h4>
+          </GridItem>
           </GridContainer>
           
          
