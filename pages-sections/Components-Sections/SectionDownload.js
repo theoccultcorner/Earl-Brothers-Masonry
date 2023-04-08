@@ -32,8 +32,11 @@ export default function SectionDownload() {
           </GridItem>
           <GridItem xs={12} sm={8} md={10}>
           
-            <Button
-              color="black"
+            <Button style={{ 
+    backgroundColor: 'black' 
+    
+  }}
+              color="white"
               size="lg"
               href="#Contact"
               target="_blank"
@@ -44,11 +47,15 @@ export default function SectionDownload() {
         </GridContainer>
         <div className={classes.textCenter + " " + classes.sharingArea}>
           <GridContainer justify="center">
+          <h2>Want to see more?</h2>
             <h3>Check out our Instagram!</h3>
           </GridContainer>
           
          
-          <Button color="black">
+          <Button  style={{ 
+    backgroundColor: 'black', 
+    
+  }} >
             <i className={classes.socials + "fa fa-instagram"} />Instagram
           </Button>
        
