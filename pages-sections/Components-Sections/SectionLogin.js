@@ -55,7 +55,7 @@ export default function Home() {
   
       <main>
  
-      <Grid container justifyContent="center" alignItems="center" style={{ minHeight: '100vh' }}>
+      <Grid xs={12} sm={12} md={8}>
           <Card id="Contact">
             <CardContent>
               <form onSubmit={onSubmit}>
