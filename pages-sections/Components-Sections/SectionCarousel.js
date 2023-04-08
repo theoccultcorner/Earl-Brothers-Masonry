@@ -162,6 +162,19 @@ export default function SectionCarousel() {
                     </h4>
                   </div>
                 </div>
+                <div>
+                  <img
+                    src="/img/bg12.jpg"
+                    alt="Second slide"
+                    className="slick-image"
+                  />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                    
+                    </h4>
+                  </div>
+                </div>
               </Carousel>
             </Card>
           </GridItem>
