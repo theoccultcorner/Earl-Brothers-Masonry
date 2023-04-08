@@ -61,7 +61,7 @@ export default function Home() {
               <form onSubmit={onSubmit}>
                 <List>
                   <ListItem>
-                    <TextField
+                    <TextField xs={12} sm={12} md={8}
                       required
                       label="Name"
                       value={inputName}
@@ -69,7 +69,7 @@ export default function Home() {
                     />
                   </ListItem>
                   <ListItem>
-                    <TextField
+                    <TextField xs={12} sm={12} md={8}
                       required
                       label="Phone"
                       value={inputPhone}
@@ -77,7 +77,7 @@ export default function Home() {
                     />
                   </ListItem>
                   <ListItem>
-                    <TextField
+                    <TextField xs={12} sm={12} md={8}
                       required
                       label="Email"
                       value={inputEmail}
@@ -85,7 +85,7 @@ export default function Home() {
                     />
                   </ListItem>
                   <ListItem>
-                    <TextField
+                    <TextField xs={12} sm={12} md={8}
                       required
                       label="Text"
                       multiline
