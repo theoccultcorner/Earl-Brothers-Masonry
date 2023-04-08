@@ -33,7 +33,7 @@ export default function SectionDownload() {
           <GridItem xs={12} sm={8} md={10}>
           
             <Button
-              color="rose"
+              color="black"
               size="lg"
               href="#Contact"
               target="_blank"
@@ -48,8 +48,8 @@ export default function SectionDownload() {
           </GridContainer>
           
          
-          <Button color="facebook">
-            <i className={classes.socials + " fab fa-Instagram"} />Instagram
+          <Button color="black">
+            <i className={classes.socials + "fa fa-instagram"} />Instagram
           </Button>
        
         </div>
