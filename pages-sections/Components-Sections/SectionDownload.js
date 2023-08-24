@@ -31,7 +31,7 @@ export default function SectionDownload() {
       window.location.href = 'mailto:Earlbrothersmasonry@gmail.com';
     }}
   >
-    Contact Us at Earlbrothersenterprize@gmail.com{" "}
+    Contact Us at Earlbrothersmasonry@gmail.com{" "}
   </a>
   We are looking forward to hearing from you!
 </h4>
