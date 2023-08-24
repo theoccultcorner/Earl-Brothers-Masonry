@@ -38,9 +38,10 @@ export default function SectionDownload() {
   }}
               color="white"
               size="lg"
-              href="#Contact"
+            
               target="_blank"
-            >
+            
+              href="mailto:Earlbrothersenterprize@gmail.com">
               Contact Us
             </Button>
           </GridItem>
