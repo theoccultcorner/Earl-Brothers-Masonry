@@ -23,12 +23,18 @@ export default function SectionDownload() {
           <GridItem xs={12} sm={12} md={8}>
             <h2>Want to know more?</h2>
             <h4>
-              Just reach out and {" "}
-              <a href="mailto:Earlbrothersenterprize@gmail.com" onClick={(e) => e.preventDefault()}>
-                Contact Us{" "}
-              </a>
-            We are looking forward to hearing from you!
-            </h4>
+  Just reach out and{" "}
+  <a
+    href="mailto:Earlbrothersenterprize@gmail.com"
+    onClick={(e) => {
+      e.preventDefault();
+      window.location.href = 'mailto:Earlbrothersenterprize@gmail.com';
+    }}
+  >
+    Contact Us at Earlbrothersenterprize@gmail.com{" "}
+  </a>
+  We are looking forward to hearing from you!
+</h4>
           </GridItem>
           <GridItem xs={12} sm={8} md={10}>
           
