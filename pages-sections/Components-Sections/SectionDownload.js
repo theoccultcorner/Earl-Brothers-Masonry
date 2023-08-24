@@ -47,7 +47,7 @@ export default function SectionDownload() {
             
               target="_blank"
             
-              href="mailto:Earlbrothersenterprize@gmail.com">
+              href="mailto:Earlbrothersmasonry@gmail.com">
               Contact Us
             </Button>
           </GridItem>
