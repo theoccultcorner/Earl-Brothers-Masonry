@@ -24,7 +24,7 @@ export default function SectionDownload() {
             <h2>Want to know more?</h2>
             <h4>
               Just reach out and {" "}
-              <a href="#Contact" onClick={(e) => e.preventDefault()}>
+              <a href="mailto:Earlbrothersenterprize@gmail.com" onClick={(e) => e.preventDefault()}>
                 Contact Us{" "}
               </a>
             We are looking forward to hearing from you!
