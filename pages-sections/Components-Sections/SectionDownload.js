@@ -25,10 +25,10 @@ export default function SectionDownload() {
             <h4>
   Just reach out and{" "}
   <a
-    href="mailto:Earlbrothersenterprize@gmail.com"
+    href="mailto:Earlbrothersmasonry@gmail.com"
     onClick={(e) => {
       e.preventDefault();
-      window.location.href = 'mailto:Earlbrothersenterprize@gmail.com';
+      window.location.href = 'mailto:Earlbrothersmasonry@gmail.com';
     }}
   >
     Contact Us at Earlbrothersenterprize@gmail.com{" "}
