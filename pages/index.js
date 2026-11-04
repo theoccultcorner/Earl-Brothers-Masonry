@@ -46,7 +46,7 @@ export default function Home() {
     <header className="header">
       <div className="wrap header-inner">
         <a className="brand" href="/" aria-label="Earl Brothers Masonry home">
-          <span className="mark" aria-hidden="true">EB</span>
+          <img className="mark" src="/mark.svg" width="44" height="44" alt="" />
           <span>EARL BROTHERS<small>MASONRY</small></span>
         </a>
         <nav aria-label="Main navigation">
