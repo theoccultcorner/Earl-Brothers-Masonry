@@ -67,10 +67,6 @@ export default function Home() {
               <a className="text-link" href="#work">See our work <span aria-hidden="true">↓</span></a>
             </div>
           </div>
-          <figure className="hero-photo">
-            <img src="/img/bg11.jpg" alt="Finished stonework framing a wood garage door" fetchPriority="high" />
-            <figcaption>PROJECT GALLERY <span>GARAGE STONEWORK</span></figcaption>
-          </figure>
         </div>
       </section>
       <div className="proof"><div className="wrap proof-inner">
