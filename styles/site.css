@@ -109,7 +109,7 @@ footer { border-top: 1px solid var(--line); padding-block: 20px; }
       animation-range: exit 0% exit 100%;
     }
     @keyframes hero-parallax {
-      to { transform: translateY(72px); }
+      to { transform: translateY(clamp(160px, 26vh, 240px)); }
     }
   }
 }
