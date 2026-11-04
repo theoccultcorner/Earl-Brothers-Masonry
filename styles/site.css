@@ -21,7 +21,7 @@ figure, h1, h2, h3, p { margin: 0; }
 .header-inner { min-height: 82px; padding-block: 12px; }
 .brand { display: flex; align-items: center; gap: 11px; font-size: .83rem; font-weight: 850; line-height: 1.25; letter-spacing: .07em; text-decoration: none; }
 .brand small { display: block; color: #bcd2f6; letter-spacing: .23em; }
-.mark { display: grid; place-items: center; width: 42px; height: 42px; background: #ffffff20; color: white; border-radius: 10px; font-size: 1rem; }
+.mark { width: 44px; height: 44px; flex: none; box-shadow: 0 0 0 1px #ffffff40; border-radius: 11px; }
 nav { display: flex; gap: clamp(14px, 3vw, 36px); font-weight: 650; }
 nav a { display: inline-flex; min-height: 44px; align-items: center; text-decoration: none; }
 nav a:hover, .email:hover { text-decoration: underline; }
@@ -33,6 +33,16 @@ nav a:hover, .email:hover { text-decoration: underline; }
   min-height: clamp(440px, 67vh, 680px);
   padding-block: 64px 88px;
   color: white;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: var(--dark);
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
   background: linear-gradient(90deg, #0c1b32ed, #0c1b32a8 60%, #0c1b3259), url('/img/nextjs_header.jpg') center 42% / cover;
 }
 .hero-copy { max-width: 670px; }
@@ -73,7 +83,7 @@ footer { border-top: 1px solid var(--line); padding-block: 20px; }
 @media (max-width: 760px) {
   .wrap { width: calc(100% - 36px); }
   .about { grid-template-columns: 1fr; }
-  .hero { background-position: 60% 42%; }
+  .hero::before { background-position: 60% 42%; }
   h1 { font-size: clamp(2.85rem, 10vw, 4.5rem); }
   .header-inner { flex-wrap: wrap; gap: 6px 12px; }
   nav { order: 1; width: 100%; }
@@ -85,4 +95,21 @@ footer { border-top: 1px solid var(--line); padding-block: 20px; }
   .grid { grid-template-columns: 1fr; }
   .proof-inner { align-items: flex-start; flex-direction: column; }
   .footer-inner { align-items: flex-start; flex-direction: column; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .hero {
+      view-timeline: --hero block;
+    }
+    .hero::before {
+      inset-block: -24px -80px;
+      animation: hero-parallax linear both;
+      animation-timeline: --hero;
+      animation-range: exit 0% exit 100%;
+    }
+    @keyframes hero-parallax {
+      to { transform: translateY(72px); }
+    }
+  }
 }
