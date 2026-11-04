@@ -1,12 +1,3 @@
-import React, { Component } from "react";
-import Router from "next/router";
-
-export default class _error extends Component {
-  componentDidMount = () => {
-    Router.push("/components");
-  };
-
-  render() {
-    return <div />;
-  }
+export default function NotFound() {
+  return <main className="wrap section"><h1>Page unavailable</h1><a className="button" href="/">Back to Earl Brothers Masonry</a></main>;
 }
