@@ -109,6 +109,12 @@ export default function Home() {
         </div>
       </div></section>
     </main>
+    <a className="call-widget" href={phone} aria-label="Call Earl Brothers Masonry at (805) 863-7747">
+      <svg width="23" height="23" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2c1.1.4 2.3.6 3.6.6a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.3.2 2.5.6 3.6a1 1 0 0 1-.3 1l-2.2 2.2Z" />
+      </svg>
+      <span>Call now</span>
+    </a>
     <footer><div className="wrap footer-inner"><strong>Earl Brothers Masonry</strong><span>Santa Maria, California</span><a href={instagram}>Instagram ↗</a></div></footer>
   </>;
 }
